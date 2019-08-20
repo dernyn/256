@@ -1,4 +1,7 @@
-# 256 - all 256 characters (8-bits)... now visible! - The one of a kind font.
+# 256 Font - all 256 characters (8-bits ASCII)... now fully visible! - The one of a kind font.
+This Font works best with Western/Latin1 encoding of ISO-8859-1
+CP1252/Windows-1252/IBM819/CP819/iso-ir-100/csISO-Latin1/ibm-5348
+
 This Font is a retro style tribute to the IBM PC 5150 character set and TypeFace used in the U.S. (western) region by IBM's PC-DOS called CP437 with some modifications and adapted to be used with any version of the M$ Windows Operating System and Linux/Android (OTF version is in the works).This was made possible by utilizing available regions but often unused Unicode Mappings which most classic font implementations ignore in True-Type Fonts(.TTF) formats. As the name implies all 256 characters are mapped and can be used to view/display NON-PRINTABLE ASCII Characters normally hidden or made to be Ignored by all operating system enviroments and Text Editors due to the classic (default) ANSI standard.There is no other Unicode Font in the wild capable of doing this in the Windows/Linux OS since it's release in 2017, (Which is weird and may seem surprising to some). And Yes!, this Font allows you to visibly see the space character, tab and carriage return (CR+LF) in text editors by assigning the font to the txt-editors manually. in addition, all the other special characters outside the ASCII standard are available and visible with this font ... which is something most people don't understand and often can't not proccess/expressed/program properly by using text rendering libraries which are focused on the classic ANSI standard.
 This font only works because of the TTF standard and the built-in support for Unicode's C0 + C1 regions and can be used in most classic operating that support .TTF formats and it's fonts.
 <br>
@@ -29,11 +32,16 @@ This is the original bitmapped windows version of the US codepage 437 without th
 
 
 Future release:
+add support for UTF-8 for Win/linux,
 Monospaced version to use on the windows console (cmd.exe) with full 256 ASCII-8 support.
 I also want to create a more normalized version without the viewable space character glyphs which may be annoying at times.
 
 Testing the font is easy; apply the font to a txt editor and open the included file:
 https://github.com/dernyn/256/blob/master/256.txt
+
+![GitHub qt_test](https://github.com/dernyn/256/blob/master/qt_test.png)
+
+For Example : Testing Qt Create on Debian Linux showing all 256 characters using the cp1252/ISO-8859-1 encoding, but any operating system with TTF and ISO-8859-1 encoding should do it.
 
 License:
 
@@ -51,5 +59,6 @@ No warranties are given - whatever you do, I will not be held liable
 
 May you and others be Happy!
 
+Thanks for your Support and appreciation.
 
 dernyn -at- stonedcoder.org
