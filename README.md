@@ -27,7 +27,7 @@ In Unicode fonts, the actual keyboard character is linked to the glyph itself, w
 There are some customizations on some character 0x00 for 0x32 which makes the space character now a viewable character and 0x255 is my own weird creation, along with others.
 
 
-<H3><b>The difference in CP437:</b></H3>
+<H3><b>The difference in CP437/CP1252:</b></H3>
 This is the original bitmapped windows version of the US codepage 437 without the unicode mappings, as you can see it's very limited,and it's non-unicode and non-truetype file-based, without Vector/anti-aliasing, etc.
 
 ![GitHub cp437](https://github.com/dernyn/256/blob/master/cp437.png)
@@ -35,7 +35,7 @@ This is the original bitmapped windows version of the US codepage 437 without th
 
 Future release:
 
-
+OpenType Fonts (OTF) version,maybe....
 Monospaced version to use on the windows console (cmd.exe) allowing a nice uniform view of all 256 characters/ASCII-8 support.
 I also want to create a more normalized version without the viewable space character glyphs which may be annoying at times or to some.
 
