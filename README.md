@@ -47,10 +47,22 @@ https://github.com/dernyn/256/blob/master/256.txt
 For Example : Testing Qt Create on Debian Linux showing all 256 characters using the cp1252/ISO-8859-1 encoding, This also works with QT in Windows!, but any operating system with .TTF and CP-1252/ISO-8859-1 encoding should do it.
 
 
-<b>WHY!? make this!:</b>
-You can now edit all your files; Binaries or non-binaries without a Hex Editor; even view Binary Packet content in Text form in Wireshark or view binary output in a Console Window/Terminal in X-11-Gnome/M$-Windows.  
+<b>WHY!? make this!: </b>
+Well, You can now edit ALL! your files with a Text Editor; Binaries and or non-binaries without a Hex Editor; 
+
+Perhaps view Binary Packet content in Text form in Wireshark
+
+or view a binary output in a Console Window/Terminal in X-11-Gnome/M$-Windows (althought the control characters may trigger internal functions).  
+
+Put it in an IDE and see those pesky special characters that trigger errors and alterior behaviours.
+
+The point is simple!, you have more options!
+
 -brain-blowing emoji here-
 
+![GitHub notepad](https://github.com/dernyn/256/raw/master/256%20-%20Notepad.png)
+
+WTF! why was this missing again?
 
 License:
 
