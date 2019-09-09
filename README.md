@@ -1,6 +1,6 @@
-# 256 Font - all 256 characters (8-bits ASCII)... now fully visible! - The one of a kind font.
-This Font works best with English - Western/Latin1 encoding providing single-byte character encoding with
-CP1252/Windows-1252/IBM819/CP819/iso-ir-100/csISO-Latin1/ibm-5348 and ISO-8859-1 depending on TXT editor support.
+# 256 - Font, Displays all 256 characters (8-bits ASCII) in Text Controls/Editors/TTY - The one of a kind font.
+This Font works best with character Region English - Western/Latin1 encoding providing single-byte character encoding with
+CP1252/Windows-1252/IBM819/CP819/iso-ir-100/csISO-Latin1/ibm-5348 and ISO-8859-1 depending on Text editor support.
 
 This Font does not support UTF-8 encoding, Inherently Fails to fully encode in UTF-8 due to it's native lack of single-byte character support by the standard, which is limited to ASCII-7 (128).
 
@@ -11,7 +11,7 @@ This font only works because of the TTF/Windows-1252 standard and the built-in s
 
 More on the Font:
 
-It is an ISO 10646-1(Unicode,BMP) encoded True-Type Font(TTF) -(Vector-based Glyphs,Unicode addressed to all 256 spaces) supports Linux/MS-Windows 32/64 bit(.TTF) standard - with full Extended ASCII-8 Support(CP-1252/ISO 8859-1) where the old ASCII-7 Standard of 128 characters is max-out and pushed further into the remaining 8-bit addressing scheme called single-byte character addressing, allowing a 256 character map, like the old IBM-PC 8-bit MGA cards but in Unicode Font form-factor. This font is utilizing Unicode C0 and C1 Controls provisional space instead of the Windows Bitmap-base .FON fonts of Windows MS-DOS/3.1//95/98, which is what makes this font very unique and one of a kind. There are changes to be made to this charset because glyphs are mapped in other unicode provisional spaces or canonical reserved Unicode addresses/regions (like U+2400 region-Control Pictures) which may conflict on a future improved CP437(ASCII8)+Unicode full BMP region combination ,basically my idea is to continue to fill the entire BMP region in this font with what is there available for other language regions and creating one huge merged font with 256 plus the whole BMP Unicode spectrum (all 65536 positions) in one file. 
+It is an ISO 10646-1(Unicode,BMP) encoded True-Type Font(TTF) -(Vector-based Glyphs,Unicode addressed to all 256 spaces) supports Linux/MS-Windows 32/64 bit(.TTF) standard - with full Extended ASCII-8 Support(CP-1252/ISO 8859-1) where the old ASCII-7 Standard of 128 characters is max-out and pushed further into the remaining 8-bit addressing scheme called single-byte character addressing, allowing a 256 character map, like the old IBM-PC 8-bit MGA cards but in Unicode Font form-factor. This font is utilizing Unicode C0 and C1 Controls provisional space instead of the Windows Bitmap-base .FON fonts of Windows MS-DOS/3.1/NT/95/98, which is what makes this font very unique and one of a kind. There are changes to be made to this charset because glyphs are mapped in other unicode provisional spaces or canonical reserved Unicode addresses/regions (like U+2400 region-Control Pictures) which may conflict on a future improved CP437(ASCII8)+Unicode full BMP region combination ,basically my idea is to continue to fill the entire BMP region in this font with what is there available for other language regions and creating one huge merged font with 256 plus the whole BMP Unicode spectrum (all 65536 positions) in one file. 
 
 <H3><b>Dedicated Regions:</b></H3>
 C0 Controls Character U+0000-U+001F
@@ -36,6 +36,7 @@ This is the original bitmapped windows version of the US codepage 437 without th
 Future release:
 
 OpenType Fonts (OTF) version,maybe....
+alternative character sets for other regions;
 Monospaced version to use on the windows console (cmd.exe) allowing a nice uniform view of all 256 characters/ASCII-8 support.
 I also want to create a more normalized version without the viewable space character glyphs which may be annoying at times or to some.
 
@@ -61,6 +62,8 @@ The point is simple!, you have more options!
 -brain-blowing emoji here-
 
 ![GitHub notepad](https://github.com/dernyn/256/raw/master/256%20-%20Notepad.png)
+
+a windows Binary file in the Windows 10 Native Notepad.exe 
 
 WTF! why was this missing again?
 
